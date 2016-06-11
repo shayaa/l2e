@@ -1,0 +1,1 @@
+This package includes tools for robust parameteric estimation by minimum integrated squared PDF divergences.
