@@ -3,7 +3,7 @@
 #' @param X a predictor matrix.
 #' @param y a response vector.
 #' @param init_x an initial estimate of \code{a}, \code{b}, and \code{sig}. Defaults respectively to the mean response \code{mean(y)}, a vector zeros of length \code{ncol(X)}, and the sample standard deviation \code{sqrt(var(y))}
-#' @param partial are the residuals modeled by a full density \eqn{\epsilon ~ \mathcal N(0, \sigma^2)} or a partial density \eqn{\epsilon ~ w \mathcal N(0, \sigma^2)} .
+#' @param partial are the residuals modeled by a full density \eqn{\epsilon ~ N(0, \sigma^2)} or a partial density \eqn{\epsilon ~ w N(0, \sigma^2)} .
 #' @param init_w an initial estimate of \code{w}. If \code{partial = FALSE} then w is fixed at 1.
 #' @param print_level value of the argument \code{print.level} from the \code{\link[stats]{nlm}} function
 #'

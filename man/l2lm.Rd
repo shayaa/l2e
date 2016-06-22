@@ -13,7 +13,7 @@ l2lm(X, y, init_x, partial = F, init_w = 1, print_level = 0)
 
 \item{init_x}{an initial estimate of \code{a}, \code{b}, and \code{sig}. Defaults respectively to the mean response \code{mean(y)}, a vector zeros of length \code{ncol(X)}, and the sample standard deviation \code{sqrt(var(y))}}
 
-\item{partial}{are the residuals modeled by a full density \eqn{\epsilon ~ \mathcal N(0, \sigma^2)} or a partial density \eqn{\epsilon ~ w \mathcal N(0, \sigma^2)} .}
+\item{partial}{are the residuals modeled by a full density \eqn{\epsilon ~ N(0, \sigma^2)} or a partial density \eqn{\epsilon ~ w N(0, \sigma^2)} .}
 
 \item{init_w}{an initial estimate of \code{w}. If \code{partial = FALSE} then w is fixed at 1.}
 
