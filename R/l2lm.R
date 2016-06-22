@@ -15,6 +15,7 @@
 #'   \item{w}{the weight of the partial L2E fit; it can be greater than 1}
 #'   \item{res}{the residuals of the model}
 #' }
+#' @export
 #'
 #' @examples
 #' ## simulate linear model with 20% contamination
