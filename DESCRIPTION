@@ -9,7 +9,8 @@ Authors@R: c(
          email = "scottdw@rice.edu",
          role = "aut"))
 Description: Robust parameteric estimation by L2E, the integrated squared
-    error probability density divergence. This method imbues strong, 'automatic', robustness properties.
+    error probability density divergence. This method imbues strong,
+    'automatic', robustness properties.
 Depends: R (>= 3.3.0)
 License: GPL
 Encoding: UTF-8
