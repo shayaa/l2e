@@ -1,8 +1,15 @@
 Package: l2e
 Title: Robust Estimation by Integrated Squared Error
 Version: 0.0.0.9000
-Authors@R: c(person("Yeshaya", "Adler", email = "yeshaya@outlook.com", role = c("aut", "cre")), person("David", "Scott", email = "scottdw@rice.edu", role = "aut"))
-Description: Robust parameteric estimation by L2E, the integrated squared error probability density divergence. This method imbues strong, 'automatic', robustness properties.
+Authors@R: c(
+  person("Yeshaya", "Adler",
+         email = "yeshaya@outlook.com",
+         role = c("aut", "cre")),
+  person("David", "Scott",
+         email = "scottdw@rice.edu",
+         role = "aut"))
+Description: Robust parameteric estimation by L2E, the integrated squared
+    error probability density divergence. This method imbues strong, 'automatic', robustness properties.
 Depends: R (>= 3.3.0)
 License: GPL
 Encoding: UTF-8
